@@ -219,7 +219,7 @@ footer {
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
 
     
     header {
@@ -229,7 +229,7 @@ footer {
     header p {
         position: absolute;
         bottom: 63px;  
-        left: 64%;
+        left: 67%;
         transform: translateX(-50%);
         margin: 0;
         text-align: center;
