@@ -191,7 +191,7 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 20px;
   margin: 0;
   padding: 0;
@@ -229,8 +229,7 @@ article {
 }
 
 article img {
-  width: 100%;
-  max-width: 300px;
+  width: 45%;
   display: block;
   margin: 10px auto;
   border-radius: 8px;
@@ -241,13 +240,14 @@ article img {
 
 article img:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
   z-index: 10;
   position: relative;
 }
 
 article h3 {
   color: #b8b6a3;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   cursor: pointer;
@@ -279,13 +279,10 @@ footer {
   }
 }
 nav ul {
-  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   gap: 10px;
-}
-
-article img {
-  max-width: 80%;
 }
 
 main {
