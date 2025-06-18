@@ -15,7 +15,7 @@ header {
   background-size: cover;
   background-position: center;
   text-align: center;
-  height: 50vh;
+  height: 60vh;
   border-bottom: 3px solid #998c15;
   position: relative;
 }
@@ -254,10 +254,10 @@ article h3 {
 }
 
 footer {
-  background-color: #998c15;
+  background-color: rgba(0, 0, 0, 0.2588235294);
   text-align: center;
   padding: 15px;
-  color: #020202;
+  color: #777171;
   font-size: 0.8em;
   margin-top: 40px;
 }
@@ -302,7 +302,8 @@ article h3 {
     position: relative;
   }
   header h1 {
-    padding-top: 45px;
+    border: solid red;
+    padding-top: 100px;
     text-align: left;
     font-size: 1.6em;
   }
@@ -372,4 +373,12 @@ article h3 {
 footer {
   font-size: 0.7em;
   padding: 10px;
+}
+
+@media (max-width: 393px) {
+  header h1 {
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-top: 90px;
+  }
 }/*# sourceMappingURL=styles.css.map */
